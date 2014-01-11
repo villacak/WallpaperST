@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:checkable="false" android:titleCondensed="Service Settings"
+		android:title="Service Settings" android:visible="true" android:id="@+id/service"
+		android:checked="false" android:enabled="true" >
+	</item>
+
+	<item android:checkable="false" android:titleCondensed="Gallery Settings"
+		android:id="@+id/gallery" android:visible="true" android:enabled="true"
+		android:title="Gallery Settings" android:checked="false">
+	</item>
+
+	<item android:checkable="false" android:titleCondensed="About"
+		android:title="About" android:visible="true" android:id="@+id/about"
+		android:checked="false" android:enabled="true" android:icon="@drawable/tng">
+	</item>
+</menu>

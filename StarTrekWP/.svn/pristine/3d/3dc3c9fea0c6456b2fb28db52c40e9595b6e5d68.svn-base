@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbars="horizontal|vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="40px"
+		android:paddingRight="40px" android:paddingTop="50px"
+		android:paddingBottom="50px">
+
+		<!-- ListView android:id="@android:id/list" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:drawSelectorOnTop="false"/ -->
+
+		<ImageView android:id="@+id/imagelist" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:scaleType="centerInside"
+			android:paddingLeft="40px" android:paddingRight="40px"
+			android:paddingTop="50px" android:paddingBottom="50px"
+			android:clickable="true" android:focusableInTouchMode="true"
+			android:adjustViewBounds="true" android:fadingEdge="vertical"
+			android:layout_weight="1" />
+
+		<TextView android:id="@+id/txtlabels" android:layout_width="wrap_content"
+			android:textSize="30px" android:layout_height="wrap_content"
+			android:layout_marginTop="20dip" android:scaleType="centerInside"
+			android:paddingLeft="40px" android:paddingRight="40px"
+			android:paddingTop="50px" android:paddingBottom="50px"/>
+
+	</LinearLayout>
+</ScrollView>
+	

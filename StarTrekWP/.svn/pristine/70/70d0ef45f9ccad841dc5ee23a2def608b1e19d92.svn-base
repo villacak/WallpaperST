@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="au.com.main"
+    android:installLocation="preferExternal"
+    android:versionCode="26"
+    android:versionName="3.8" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="false"
+        android:xlargeScreens="false" />
+
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@drawable/tngbig"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".STMain"
+            android:icon="@drawable/tng"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- service android:enabled="true" android:name=".WallpapersService" android:permission="android.permission.SET_WALLPAPER" / -->
+
+        <activity
+            android:name=".ImageList"
+            android:clearTaskOnLaunch="true"
+            android:icon="@drawable/tng"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ServiceST"
+            android:label="@string/serviceSetting" />
+        <activity
+            android:name=".GallerySettingST"
+            android:label="@string/gallerySetting" />
+        <activity
+            android:name=".EulaSTWp"
+            android:label="@string/eula_title" />
+        <activity
+            android:name=".GalleryST"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".GallerySelect"
+            android:configChanges="orientation"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

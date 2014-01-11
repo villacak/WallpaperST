@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo"
+    android:orientation="vertical" >
+
+    <Gallery
+        android:id="@+id/examplegallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fadingEdge="none"
+        android:gravity="center_vertical"
+        android:animationDuration="200"
+        android:hapticFeedbackEnabled="true"
+        android:soundEffectsEnabled="true"
+        android:spacing="35dp" />
+
+</LinearLayout>

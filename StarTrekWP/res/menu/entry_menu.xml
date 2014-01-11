@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:checkable="false" android:titleCondensed="About"
+		android:title="About" android:visible="true" android:id="@+id/about"
+		android:checked="false" android:enabled="true" android:icon="@drawable/tng">
+	</item>
+</menu>
